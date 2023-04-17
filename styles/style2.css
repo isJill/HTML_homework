@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../images/galaxy2.jpg) no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div {
+    background-color: #EFF5F5;
+    width: 1000px;
+    border: 2px solid #EB6440;
+    padding: 32px;
+    margin: 20px;
+    /* position: relative;
+    left: 50%;
+    transform: translateX(-50%); */
+    border-radius: 0px 30px 0px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 36px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+    border-bottom: 0.5px solid #708090;
+}
+
+h2 {
+    margin-top: 32px;
+    margin-bottom: 4px;
+
+}
+
+
+p {
+    color: #708090;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: justify;
+
+
+}
+
+figure {
+    float: left;
+    background-color: #D6E4E5;
+    border: 1px solid #EB6440;
+    border-radius: 0px 20px 0px 20px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+figcaption {
+    margin: 10px 0px;
+    padding-top: 10px;
+    text-align: center;
+    border-top: 1px solid #708090;
+
+}
+
+.quote {
+    font-family: serif;
+    border-left: 4px solid #EB6440;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #EB6440;
+    line-height: 1.5;
+}
+
+a:visited {
+    color: #843b26;
+}
+
+a:hover {
+    background-color: #fcfc4e;
+    font-weight: 300;
+}
+
+a:active {
+    background-color: #fcfc4e;
+    font-style: italic;
+}
+
+.back {
+    color: #EB6440;
+    padding: 16px 36px;
+    text-decoration: none;
+    border: 2px solid #EB6440;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 32px;
+    display: inline-block;
+    width: auto;
+}
+
+.back:hover {
+    background-color: #EB6440;
+    color: white;
+}
+
+.back:visited {
+    color: #EB6440;
+}
+
+.in {
+    list-style-position: inside;
+}
+
+.last {
+    margin-left: 750px;
+}
